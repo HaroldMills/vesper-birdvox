@@ -196,6 +196,12 @@ ORDER_NAME_CORRECTIONS = {
     'Passeriforme': 'Passeriformes',
     'Pelicaniforme': 'Pelicaniformes',
 }
+"""
+Corrections for misspellings in early versions of BirdVoxClassify.
+
+See BirdVoxClassify issue #11 at
+https://github.com/BirdVox/birdvoxclassify/issues/11.
+"""
 
 
 def get_order(order):
