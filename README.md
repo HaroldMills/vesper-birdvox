@@ -1,2 +1,2 @@
 # vesper-birdvox
-Interface between Vesper and BirdVoxDetect.
+The `vesper_birdvox` Python package, which interfaces Vesper and BirdVoxDetect.
