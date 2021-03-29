@@ -16,12 +16,12 @@ To upload the vesper-birdvox package to the real Python package index:
 
     python -m twine upload dist/*
     
-To create a conda environment using a local vesper_birdvox package:
+To create a conda environment using a local vesper-birdvox package:
 
     conda create -n test python=3.7
     conda activate test
     pip install birdvoxdetect
-    pip install dist/vesper_birdvox-<version>.tar.gz
+    pip install dist/vesper-birdvox-<version>.tar.gz
     
 To create a conda environment using a vesper-birdvox package from the test
 PyPI:
@@ -42,15 +42,27 @@ PyPI:
 """
 
 
+from importlib.machinery import SourceFileLoader
+from pathlib import Path
 from setuptools import find_packages, setup
+
+
+def load_version_module(package_name):
+    module_name = f'{package_name}.version'
+    file_path = Path(f'{package_name}/version.py')
+    loader = SourceFileLoader(module_name, str(file_path))
+    return loader.load_module()
+
+
+version = load_version_module('vesper_birdvox')
 
 
 setup(
     
     name='vesper-birdvox',
-    version='0.0.0a4',
+    version=version.full_version,
     description='Software for interfacing Vesper with BirdVoxDetect.',
-    url='https://github.com/HaroldMills/vesper-birdvox',
+    url=f'https://github.com/HaroldMills/vesper-birdvox',
     author='Harold Mills',
     author_email='harold.mills@gmail.com',
     license='MIT',
@@ -67,7 +79,7 @@ setup(
     
     entry_points={
         'console_scripts': [
-            'run_birdvoxdetect=vesper_birdvox.run_birdvoxdetect:main',
+            f'run_birdvoxdetect=vesper_birdvox.run_birdvoxdetect:main',
         ]
     },
     
