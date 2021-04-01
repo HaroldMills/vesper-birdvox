@@ -10,7 +10,7 @@ this module.
 major_number = 0
 minor_number = 0
 patch_number = 0
-suffix = 'a4'
+suffix = ''
 
 major_version = f'{major_number}'
 minor_version = f'{major_version}.{minor_number}'
