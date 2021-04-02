@@ -75,7 +75,9 @@ setup(
         'License :: OSI Approved :: MIT License',
     ],
     
-    install_requires=[],
+    install_requires=[
+        'birdvoxdetect>=0.2'
+    ],
     
     entry_points={
         'console_scripts': [
