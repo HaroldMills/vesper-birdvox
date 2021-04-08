@@ -94,8 +94,8 @@ def create_detection_file(output_dir_path, audio_file_path):
     checklist_file_path = dir_path / (stem + '_checklist.csv')
     detection_file_path = dir_path / (stem + '_detections_for_vesper.csv')
     
-    with open(checklist_file_path, 'r') as checklist_file, \
-            open(detection_file_path, 'w') as detection_file:
+    with open(checklist_file_path, 'r', newline='') as checklist_file, \
+            open(detection_file_path, 'w', newline='') as detection_file:
         
         # Get detection file format from checklist file header.
         reader = csv.reader(checklist_file)
