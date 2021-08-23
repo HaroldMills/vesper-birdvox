@@ -7,7 +7,7 @@ this module.
 """
 
 
-major_number = 0
+major_number = 1
 minor_number = 0
 patch_number = 0
 suffix = ''
