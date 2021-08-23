@@ -1,0 +1,478 @@
+Time (hh:mm:ss),Detection confidence (%),Order,Order confidence (%),Family,Family confidence (%),Species (English name),Species (scientific name),Species (4-letter code),Species confidence (%)
+00:00:04.10,71.13%,Passeriformes,99.98%,Parulidae,55.59%,other,,,96.93%
+00:00:10.02,53.74%,Passeriformes,98.83%,,56.31%,other,,,56.31%
+00:00:19.34,55.65%,Passeriformes,96.92%,Passerellidae,82.24%,Savannah sparrow,Passerculus sandwichensis,SAVS,81.27%
+00:00:28.37,59.62%,Passeriformes,97.66%,,53.19%,other,,,53.19%
+00:00:30.79,64.60%,Passeriformes,98.81%,Passerellidae,64.56%,Savannah sparrow,Passerculus sandwichensis,SAVS,58.97%
+00:00:33.11,99.99%,Passeriformes,99.96%,Turdidae,98.42%,Swainson's thrush,Catharus ustulatus,SWTH,50.74%
+00:00:34.93,63.11%,Passeriformes,99.60%,Turdidae,83.83%,Swainson's thrush,Catharus ustulatus,SWTH,77.04%
+00:00:41.20,62.22%,Passeriformes,99.89%,Turdidae,88.00%,Swainson's thrush,Catharus ustulatus,SWTH,69.85%
+00:00:50.18,59.29%,Passeriformes,99.97%,Turdidae,50.04%,other,,,97.78%
+00:00:50.38,99.99%,Passeriformes,99.81%,Turdidae,98.83%,Swainson's thrush,Catharus ustulatus,SWTH,62.86%
+00:01:01.63,59.82%,Passeriformes,99.88%,Turdidae,98.36%,other,,,75.71%
+00:01:04.39,66.25%,Passeriformes,95.07%,Turdidae,84.68%,Swainson's thrush,Catharus ustulatus,SWTH,71.06%
+00:01:16.88,99.99%,Passeriformes,99.80%,Turdidae,99.37%,Swainson's thrush,Catharus ustulatus,SWTH,90.80%
+00:01:21.27,66.85%,Passeriformes,99.62%,Passerellidae,88.63%,Savannah sparrow,Passerculus sandwichensis,SAVS,65.51%
+00:01:21.66,51.00%,Passeriformes,99.92%,Passerellidae,92.16%,other,,,63.69%
+00:01:26.89,59.64%,Passeriformes,99.06%,,59.05%,other,,,59.05%
+00:01:39.38,99.99%,Passeriformes,99.95%,Turdidae,99.45%,Swainson's thrush,Catharus ustulatus,SWTH,93.83%
+00:01:41.89,61.95%,Passeriformes,100.00%,Passerellidae,100.00%,Savannah sparrow,Passerculus sandwichensis,SAVS,100.00%
+00:01:42.53,59.95%,Passeriformes,88.68%,Passerellidae,62.03%,Savannah sparrow,Passerculus sandwichensis,SAVS,52.20%
+00:01:44.41,99.99%,Passeriformes,99.30%,Passerellidae,87.54%,Savannah sparrow,Passerculus sandwichensis,SAVS,69.71%
+00:01:45.99,70.11%,Passeriformes,100.00%,Passerellidae,99.35%,Chipping sparrow,Spizella passerina,CHSP,94.93%
+00:01:46.48,51.67%,Passeriformes,95.63%,Passerellidae,86.08%,Savannah sparrow,Passerculus sandwichensis,SAVS,82.89%
+00:01:50.38,65.62%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.30%
+00:01:51.37,53.97%,Passeriformes,98.59%,,51.57%,other,,,51.57%
+00:01:57.78,99.99%,Passeriformes,99.68%,Parulidae,76.13%,other,,,83.87%
+00:01:58.27,63.78%,Passeriformes,99.88%,Turdidae,99.45%,Swainson's thrush,Catharus ustulatus,SWTH,78.38%
+00:02:08.54,58.22%,Passeriformes,99.82%,Turdidae,83.44%,Swainson's thrush,Catharus ustulatus,SWTH,55.75%
+00:02:10.51,99.99%,Passeriformes,99.93%,Turdidae,99.90%,Swainson's thrush,Catharus ustulatus,SWTH,72.31%
+00:02:13.22,53.95%,Passeriformes,99.71%,Turdidae,86.16%,Swainson's thrush,Catharus ustulatus,SWTH,66.12%
+00:02:13.67,63.58%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.83%
+00:02:24.43,51.56%,Passeriformes,100.00%,Turdidae,99.89%,Swainson's thrush,Catharus ustulatus,SWTH,99.95%
+00:02:25.41,78.67%,Passeriformes,99.98%,Turdidae,94.23%,Swainson's thrush,Catharus ustulatus,SWTH,84.28%
+00:02:25.56,71.03%,Passeriformes,99.99%,Turdidae,99.95%,Swainson's thrush,Catharus ustulatus,SWTH,98.53%
+00:02:28.57,55.28%,Passeriformes,99.94%,Turdidae,99.39%,Swainson's thrush,Catharus ustulatus,SWTH,79.86%
+00:02:29.85,99.99%,Passeriformes,99.90%,Turdidae,99.52%,Swainson's thrush,Catharus ustulatus,SWTH,93.67%
+00:02:30.69,99.99%,Passeriformes,99.86%,Turdidae,96.17%,Swainson's thrush,Catharus ustulatus,SWTH,58.59%
+00:02:31.09,71.51%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.92%
+00:02:33.85,53.33%,Passeriformes,58.07%,,73.45%,other,,,73.45%
+00:02:34.34,99.99%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.95%
+00:02:34.69,61.68%,Passeriformes,99.76%,Turdidae,98.30%,Swainson's thrush,Catharus ustulatus,SWTH,86.39%
+00:02:37.01,63.45%,Passeriformes,99.73%,Turdidae,97.15%,Swainson's thrush,Catharus ustulatus,SWTH,95.43%
+00:02:40.56,57.63%,Passeriformes,99.82%,Turdidae,99.12%,Swainson's thrush,Catharus ustulatus,SWTH,96.96%
+00:02:41.10,70.80%,Passeriformes,99.90%,Turdidae,99.72%,Swainson's thrush,Catharus ustulatus,SWTH,99.45%
+00:02:41.84,99.99%,Passeriformes,99.99%,Turdidae,73.77%,Swainson's thrush,Catharus ustulatus,SWTH,60.59%
+00:02:45.84,99.99%,Passeriformes,99.96%,Turdidae,99.64%,Swainson's thrush,Catharus ustulatus,SWTH,84.50%
+00:02:46.97,99.99%,Passeriformes,99.99%,Turdidae,98.91%,Swainson's thrush,Catharus ustulatus,SWTH,82.16%
+00:02:48.36,68.36%,Passeriformes,99.82%,Turdidae,88.75%,other,,,51.45%
+00:02:49.24,61.88%,Passeriformes,63.36%,,86.36%,other,,,86.36%
+00:02:49.74,63.93%,Passeriformes,62.31%,,68.32%,other,,,68.32%
+00:02:50.38,59.84%,Passeriformes,99.22%,Turdidae,84.03%,Swainson's thrush,Catharus ustulatus,SWTH,61.16%
+00:02:51.71,63.85%,Passeriformes,99.89%,Parulidae,91.44%,Ovenbird,Seiurus aurocapilla,OVEN,85.17%
+00:02:52.85,51.78%,Passeriformes,92.82%,,63.28%,other,,,63.28%
+00:02:54.92,57.04%,Passeriformes,98.27%,Parulidae,75.40%,other,,,83.26%
+00:02:55.76,99.99%,Passeriformes,96.31%,Turdidae,93.24%,Swainson's thrush,Catharus ustulatus,SWTH,66.72%
+00:02:56.60,99.99%,Passeriformes,100.00%,Parulidae,95.52%,American redstart,Setophaga ruticilla,AMRE,87.97%
+00:03:01.93,99.99%,Passeriformes,99.48%,Turdidae,66.98%,other,,,60.29%
+00:03:05.92,64.07%,Passeriformes,99.97%,Turdidae,52.51%,other,,,56.44%
+00:03:07.99,95.02%,Passeriformes,99.45%,Passerellidae,51.58%,Savannah sparrow,Passerculus sandwichensis,SAVS,53.86%
+00:03:09.82,68.15%,Passeriformes,100.00%,Turdidae,99.99%,Swainson's thrush,Catharus ustulatus,SWTH,98.51%
+00:03:10.46,99.99%,Passeriformes,99.99%,Turdidae,64.95%,other,,,99.82%
+00:03:10.76,58.25%,Passeriformes,98.98%,Turdidae,88.98%,Swainson's thrush,Catharus ustulatus,SWTH,73.45%
+00:03:21.56,62.96%,Passeriformes,99.94%,Turdidae,83.72%,Swainson's thrush,Catharus ustulatus,SWTH,76.90%
+00:03:28.77,58.94%,Passeriformes,99.71%,Turdidae,99.55%,Swainson's thrush,Catharus ustulatus,SWTH,89.40%
+00:03:29.31,68.28%,Passeriformes,99.97%,Turdidae,66.75%,other,,,67.46%
+00:03:33.36,99.99%,Passeriformes,99.98%,Turdidae,98.96%,Swainson's thrush,Catharus ustulatus,SWTH,52.08%
+00:03:37.11,52.86%,Passeriformes,69.38%,,74.16%,other,,,74.16%
+00:03:38.98,57.25%,Passeriformes,99.49%,Turdidae,60.05%,Swainson's thrush,Catharus ustulatus,SWTH,50.09%
+00:03:39.57,57.29%,Passeriformes,99.73%,Turdidae,98.82%,Swainson's thrush,Catharus ustulatus,SWTH,88.71%
+00:03:39.67,61.49%,Passeriformes,99.98%,Turdidae,99.68%,Swainson's thrush,Catharus ustulatus,SWTH,78.29%
+00:03:41.74,64.30%,Passeriformes,99.99%,Turdidae,99.99%,Swainson's thrush,Catharus ustulatus,SWTH,99.97%
+00:03:42.53,56.56%,Passeriformes,99.53%,Turdidae,89.42%,other,,,80.73%
+00:03:47.42,54.16%,Passeriformes,99.76%,Turdidae,98.63%,Swainson's thrush,Catharus ustulatus,SWTH,57.35%
+00:03:48.31,99.99%,Passeriformes,99.82%,Turdidae,86.40%,other,,,54.66%
+00:03:50.73,65.92%,Passeriformes,99.81%,,55.41%,other,,,55.41%
+00:03:50.97,69.82%,Passeriformes,99.91%,Turdidae,99.68%,Swainson's thrush,Catharus ustulatus,SWTH,96.09%
+00:03:53.39,59.46%,Passeriformes,99.84%,Turdidae,81.42%,other,,,64.06%
+00:03:54.62,62.47%,Passeriformes,99.69%,Turdidae,84.03%,Swainson's thrush,Catharus ustulatus,SWTH,81.70%
+00:03:57.53,66.26%,Passeriformes,99.82%,Turdidae,85.06%,Swainson's thrush,Catharus ustulatus,SWTH,68.25%
+00:03:59.36,61.15%,Passeriformes,98.86%,Passerellidae,54.26%,other,,,70.79%
+00:04:08.83,91.65%,Passeriformes,99.97%,Turdidae,89.42%,other,,,73.24%
+00:04:09.03,99.99%,Passeriformes,92.58%,Passerellidae,54.37%,other,,,74.49%
+00:04:09.48,57.88%,Passeriformes,99.82%,Turdidae,51.44%,other,,,66.85%
+00:04:16.63,56.68%,Passeriformes,99.99%,Turdidae,98.91%,Swainson's thrush,Catharus ustulatus,SWTH,88.07%
+00:04:22.90,53.58%,Passeriformes,98.76%,Turdidae,73.66%,other,,,52.37%
+00:05:15.45,58.31%,Passeriformes,99.96%,Turdidae,96.44%,other,,,82.80%
+00:05:19.00,61.22%,Passeriformes,99.93%,Turdidae,98.90%,Swainson's thrush,Catharus ustulatus,SWTH,75.89%
+00:05:26.45,50.17%,Passeriformes,95.38%,,58.31%,other,,,58.31%
+00:05:36.32,58.48%,Passeriformes,99.24%,,51.14%,other,,,51.14%
+00:05:39.18,62.03%,Passeriformes,96.64%,Passerellidae,88.86%,Savannah sparrow,Passerculus sandwichensis,SAVS,92.42%
+00:05:55.66,61.22%,Passeriformes,100.00%,Cardinalidae,80.80%,Rose-breasted grosbeak,Pheucticus ludovicianus,RBGR,71.54%
+00:06:14.95,59.85%,Passeriformes,99.31%,Turdidae,99.04%,Swainson's thrush,Catharus ustulatus,SWTH,81.04%
+00:06:23.24,57.57%,Passeriformes,99.89%,Turdidae,54.29%,other,,,69.08%
+00:06:24.57,55.96%,Passeriformes,99.99%,Parulidae,52.09%,other,,,85.98%
+00:06:26.55,66.48%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.09%
+00:06:38.79,50.06%,Passeriformes,93.26%,Passerellidae,81.10%,Savannah sparrow,Passerculus sandwichensis,SAVS,57.98%
+00:07:54.97,57.53%,Passeriformes,95.96%,Turdidae,66.43%,other,,,81.26%
+00:08:06.71,53.90%,Passeriformes,99.84%,Turdidae,96.87%,Swainson's thrush,Catharus ustulatus,SWTH,94.98%
+00:08:11.94,64.95%,Passeriformes,99.98%,Cardinalidae,59.24%,other,,,62.97%
+00:08:13.52,67.95%,Passeriformes,99.99%,Turdidae,99.98%,Swainson's thrush,Catharus ustulatus,SWTH,98.65%
+00:08:18.26,61.29%,Passeriformes,99.62%,Passerellidae,99.68%,Savannah sparrow,Passerculus sandwichensis,SAVS,99.61%
+00:08:21.96,50.92%,Passeriformes,99.19%,Turdidae,83.02%,Swainson's thrush,Catharus ustulatus,SWTH,77.65%
+00:08:41.15,53.33%,Passeriformes,99.59%,Turdidae,68.54%,other,,,69.80%
+00:09:06.91,74.45%,Passeriformes,99.83%,Parulidae,63.10%,other,,,62.26%
+00:09:17.02,61.88%,Passeriformes,99.78%,Passerellidae,61.12%,other,,,58.39%
+00:09:24.77,60.56%,Passeriformes,99.84%,Passerellidae,92.29%,Savannah sparrow,Passerculus sandwichensis,SAVS,67.50%
+00:09:25.07,69.67%,Passeriformes,97.47%,,55.34%,other,,,55.34%
+00:09:26.30,63.60%,Passeriformes,99.88%,Turdidae,95.44%,other,,,55.20%
+00:09:26.84,55.94%,Passeriformes,99.93%,Turdidae,99.09%,Swainson's thrush,Catharus ustulatus,SWTH,93.43%
+00:09:29.11,56.54%,Passeriformes,99.57%,Turdidae,70.39%,Swainson's thrush,Catharus ustulatus,SWTH,76.99%
+00:09:31.09,53.92%,Passeriformes,99.24%,Turdidae,70.71%,Swainson's thrush,Catharus ustulatus,SWTH,61.97%
+00:09:31.33,60.74%,Passeriformes,99.07%,Turdidae,85.17%,Swainson's thrush,Catharus ustulatus,SWTH,79.27%
+00:09:33.60,99.99%,Passeriformes,98.91%,Turdidae,80.88%,other,,,53.47%
+00:09:34.98,64.11%,Passeriformes,86.36%,,58.81%,other,,,58.81%
+00:09:35.08,59.68%,Passeriformes,99.99%,Turdidae,99.93%,Swainson's thrush,Catharus ustulatus,SWTH,99.84%
+00:09:36.96,76.90%,Passeriformes,99.82%,Turdidae,82.71%,Swainson's thrush,Catharus ustulatus,SWTH,63.71%
+00:09:43.67,63.07%,Passeriformes,99.30%,,61.67%,other,,,61.67%
+00:09:45.30,60.59%,Passeriformes,100.00%,Turdidae,65.86%,Swainson's thrush,Catharus ustulatus,SWTH,72.82%
+00:09:46.19,60.86%,Passeriformes,99.75%,Turdidae,99.47%,Swainson's thrush,Catharus ustulatus,SWTH,89.85%
+00:09:47.37,79.41%,Passeriformes,99.98%,Passerellidae,74.42%,other,,,62.75%
+00:09:48.11,60.68%,Passeriformes,99.79%,Parulidae,97.51%,other,,,52.59%
+00:09:48.36,62.00%,Passeriformes,97.83%,Passerellidae,59.59%,Savannah sparrow,Passerculus sandwichensis,SAVS,72.12%
+00:09:53.44,55.20%,Passeriformes,99.93%,Turdidae,99.72%,Gray-cheeked thrush,Catharus minimus,GCTH,70.48%
+00:09:55.76,54.83%,Passeriformes,99.69%,Turdidae,80.75%,Swainson's thrush,Catharus ustulatus,SWTH,53.42%
+00:10:23.83,61.29%,Passeriformes,99.98%,Parulidae,86.52%,other,,,79.92%
+00:10:47.27,50.82%,Passeriformes,99.97%,Turdidae,99.88%,Swainson's thrush,Catharus ustulatus,SWTH,97.01%
+00:10:51.56,63.20%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,100.00%
+00:10:58.08,61.90%,Passeriformes,89.28%,Passerellidae,85.90%,other,,,74.64%
+00:11:01.97,82.63%,Passeriformes,99.95%,Turdidae,86.59%,Swainson's thrush,Catharus ustulatus,SWTH,57.51%
+00:11:06.71,64.77%,Passeriformes,99.98%,Passerellidae,99.34%,Savannah sparrow,Passerculus sandwichensis,SAVS,80.29%
+00:11:09.43,58.26%,Passeriformes,99.45%,,50.86%,other,,,50.86%
+00:11:15.84,54.25%,Passeriformes,99.95%,Turdidae,99.81%,Swainson's thrush,Catharus ustulatus,SWTH,87.33%
+00:11:38.54,57.62%,Passeriformes,97.82%,,51.66%,other,,,51.66%
+00:11:39.67,63.68%,Passeriformes,99.92%,Turdidae,99.82%,Swainson's thrush,Catharus ustulatus,SWTH,94.32%
+00:11:40.86,99.99%,Passeriformes,99.05%,Turdidae,96.33%,Swainson's thrush,Catharus ustulatus,SWTH,82.88%
+00:11:45.40,54.81%,Passeriformes,99.96%,Turdidae,99.11%,Swainson's thrush,Catharus ustulatus,SWTH,99.04%
+00:11:47.42,99.99%,Passeriformes,95.55%,Turdidae,87.21%,Swainson's thrush,Catharus ustulatus,SWTH,61.13%
+00:11:53.49,62.14%,Passeriformes,99.86%,Passerellidae,77.43%,Savannah sparrow,Passerculus sandwichensis,SAVS,55.92%
+00:11:56.65,82.33%,Passeriformes,99.73%,Turdidae,99.49%,Swainson's thrush,Catharus ustulatus,SWTH,86.40%
+00:12:00.59,52.41%,Passeriformes,99.62%,Turdidae,90.95%,Swainson's thrush,Catharus ustulatus,SWTH,74.31%
+00:12:03.75,63.10%,Passeriformes,95.59%,Passerellidae,75.97%,other,,,66.97%
+00:12:04.54,57.71%,Passeriformes,99.64%,Turdidae,99.75%,Swainson's thrush,Catharus ustulatus,SWTH,99.32%
+00:12:07.11,51.45%,Passeriformes,93.70%,Passerellidae,63.92%,Savannah sparrow,Passerculus sandwichensis,SAVS,78.00%
+00:12:07.75,56.35%,Passeriformes,99.92%,Turdidae,98.99%,Swainson's thrush,Catharus ustulatus,SWTH,87.92%
+00:12:17.27,63.24%,Passeriformes,100.00%,Turdidae,98.90%,Swainson's thrush,Catharus ustulatus,SWTH,63.96%
+00:12:22.21,57.66%,Passeriformes,98.59%,Turdidae,53.66%,other,,,55.51%
+00:12:30.79,57.96%,Passeriformes,98.02%,Passerellidae,62.28%,other,,,54.45%
+00:12:38.98,63.29%,Passeriformes,99.95%,Turdidae,83.44%,Swainson's thrush,Catharus ustulatus,SWTH,67.27%
+00:12:39.28,78.99%,Passeriformes,99.84%,Turdidae,88.87%,other,,,55.21%
+00:12:52.45,68.65%,Passeriformes,99.79%,Turdidae,97.64%,Swainson's thrush,Catharus ustulatus,SWTH,64.41%
+00:12:56.79,62.49%,Passeriformes,96.56%,,58.42%,other,,,58.42%
+00:13:00.00,60.92%,Passeriformes,99.99%,Turdidae,98.89%,Swainson's thrush,Catharus ustulatus,SWTH,95.43%
+00:13:00.40,56.91%,Passeriformes,96.63%,Turdidae,50.44%,other,,,67.32%
+00:13:04.15,69.29%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.79%
+00:13:07.06,65.85%,Passeriformes,99.92%,Turdidae,98.28%,Swainson's thrush,Catharus ustulatus,SWTH,63.84%
+00:13:09.38,64.01%,Passeriformes,94.42%,Turdidae,88.63%,Swainson's thrush,Catharus ustulatus,SWTH,76.55%
+00:13:15.05,53.88%,Passeriformes,99.94%,Turdidae,99.89%,Swainson's thrush,Catharus ustulatus,SWTH,94.54%
+00:13:24.03,92.17%,Passeriformes,97.67%,Parulidae,72.26%,other,,,90.36%
+00:13:58.03,65.14%,Passeriformes,99.19%,Turdidae,96.61%,Swainson's thrush,Catharus ustulatus,SWTH,76.42%
+00:14:00.74,99.99%,Passeriformes,100.00%,Turdidae,99.84%,Swainson's thrush,Catharus ustulatus,SWTH,97.93%
+00:14:05.63,59.99%,Passeriformes,99.86%,,50.14%,other,,,50.14%
+00:14:14.21,99.99%,Passeriformes,99.87%,Passerellidae,84.51%,Savannah sparrow,Passerculus sandwichensis,SAVS,63.62%
+00:14:16.83,63.28%,Passeriformes,99.76%,Passerellidae,90.53%,Savannah sparrow,Passerculus sandwichensis,SAVS,60.93%
+00:14:16.93,69.85%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.55%
+00:14:17.07,50.33%,Passeriformes,88.99%,Turdidae,66.96%,other,,,60.58%
+00:14:20.33,59.55%,Passeriformes,99.02%,Turdidae,82.35%,Swainson's thrush,Catharus ustulatus,SWTH,58.78%
+00:14:27.83,61.59%,Passeriformes,98.91%,Parulidae,60.17%,other,,,64.23%
+00:14:30.30,61.68%,Passeriformes,99.54%,,51.21%,other,,,51.21%
+00:14:31.78,99.99%,Passeriformes,99.97%,Parulidae,57.23%,other,,,89.71%
+00:14:45.40,63.36%,Passeriformes,99.84%,Passerellidae,68.55%,Savannah sparrow,Passerculus sandwichensis,SAVS,57.78%
+00:15:17.57,62.72%,Passeriformes,97.76%,,50.42%,other,,,50.42%
+00:15:36.17,99.99%,Passeriformes,99.98%,Turdidae,99.32%,Swainson's thrush,Catharus ustulatus,SWTH,94.27%
+00:15:40.90,54.40%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,97.80%
+00:15:50.03,50.66%,Passeriformes,99.57%,Passerellidae,66.38%,Savannah sparrow,Passerculus sandwichensis,SAVS,67.06%
+00:15:58.91,50.39%,Passeriformes,99.98%,Turdidae,99.04%,Swainson's thrush,Catharus ustulatus,SWTH,75.16%
+00:15:59.31,62.47%,Passeriformes,99.99%,Turdidae,80.82%,Swainson's thrush,Catharus ustulatus,SWTH,71.26%
+00:15:59.41,53.26%,Passeriformes,95.87%,Turdidae,93.00%,other,,,58.38%
+00:16:07.99,51.00%,Passeriformes,97.78%,Turdidae,66.68%,Swainson's thrush,Catharus ustulatus,SWTH,54.85%
+00:16:08.88,61.73%,Passeriformes,99.52%,Turdidae,63.20%,other,,,56.52%
+00:16:08.98,62.07%,Passeriformes,95.66%,Turdidae,52.44%,other,,,80.17%
+00:16:14.85,99.99%,Passeriformes,99.97%,,60.41%,other,,,60.41%
+00:16:18.80,99.99%,Passeriformes,99.04%,,52.29%,other,,,52.29%
+00:16:21.71,53.04%,Passeriformes,99.95%,Turdidae,99.97%,Swainson's thrush,Catharus ustulatus,SWTH,99.91%
+00:16:23.54,52.52%,Passeriformes,99.83%,Turdidae,98.70%,Swainson's thrush,Catharus ustulatus,SWTH,67.80%
+00:16:26.25,84.71%,Passeriformes,99.95%,Turdidae,99.93%,Swainson's thrush,Catharus ustulatus,SWTH,98.99%
+00:16:27.83,51.97%,Passeriformes,99.80%,Turdidae,68.76%,Swainson's thrush,Catharus ustulatus,SWTH,83.94%
+00:16:30.15,62.09%,Passeriformes,100.00%,Passerellidae,100.00%,Savannah sparrow,Passerculus sandwichensis,SAVS,99.99%
+00:16:33.75,53.59%,Passeriformes,97.96%,Passerellidae,56.86%,Savannah sparrow,Passerculus sandwichensis,SAVS,58.05%
+00:16:38.64,57.78%,Passeriformes,99.38%,Turdidae,92.26%,Swainson's thrush,Catharus ustulatus,SWTH,79.64%
+00:16:41.35,56.60%,Passeriformes,99.99%,Turdidae,99.85%,Swainson's thrush,Catharus ustulatus,SWTH,99.57%
+00:16:45.89,59.51%,Passeriformes,97.83%,Turdidae,62.71%,other,,,70.79%
+00:16:57.39,53.68%,Passeriformes,100.00%,Turdidae,87.40%,other,,,77.26%
+00:17:01.78,51.93%,Passeriformes,99.82%,Turdidae,97.43%,Swainson's thrush,Catharus ustulatus,SWTH,76.86%
+00:17:10.56,61.72%,Passeriformes,99.99%,Turdidae,99.99%,Swainson's thrush,Catharus ustulatus,SWTH,89.84%
+00:17:12.09,63.30%,Passeriformes,98.78%,Parulidae,73.31%,other,,,88.61%
+00:17:13.62,54.04%,Passeriformes,92.89%,Parulidae,66.32%,other,,,73.33%
+00:17:21.32,63.56%,Passeriformes,99.47%,Turdidae,99.16%,Swainson's thrush,Catharus ustulatus,SWTH,95.56%
+00:17:22.90,56.85%,Passeriformes,98.40%,,70.03%,other,,,70.03%
+00:17:24.23,52.24%,Passeriformes,99.73%,Turdidae,90.80%,Swainson's thrush,Catharus ustulatus,SWTH,66.57%
+00:17:26.65,99.99%,Passeriformes,99.60%,,63.87%,other,,,63.87%
+00:17:29.56,99.99%,Passeriformes,99.89%,Turdidae,93.42%,Swainson's thrush,Catharus ustulatus,SWTH,64.30%
+00:17:34.69,63.37%,Passeriformes,98.35%,Turdidae,96.29%,other,,,72.44%
+00:17:39.43,53.52%,Passeriformes,99.96%,Turdidae,99.81%,Swainson's thrush,Catharus ustulatus,SWTH,97.70%
+00:17:45.64,54.46%,Passeriformes,97.09%,Turdidae,82.94%,Swainson's thrush,Catharus ustulatus,SWTH,56.71%
+00:17:48.11,58.02%,Passeriformes,97.25%,,54.88%,other,,,54.88%
+00:17:49.00,55.90%,Passeriformes,99.71%,Turdidae,77.20%,Swainson's thrush,Catharus ustulatus,SWTH,80.78%
+00:17:50.63,71.00%,Passeriformes,99.91%,Turdidae,98.88%,Swainson's thrush,Catharus ustulatus,SWTH,77.92%
+00:17:53.24,69.80%,Passeriformes,99.98%,Parulidae,95.58%,other,,,54.81%
+00:17:55.81,60.44%,Passeriformes,99.78%,Turdidae,53.53%,other,,,78.17%
+00:17:59.06,50.13%,Passeriformes,97.88%,Passerellidae,61.96%,other,,,86.27%
+00:18:09.03,53.85%,Passeriformes,99.70%,Passerellidae,65.91%,Savannah sparrow,Passerculus sandwichensis,SAVS,50.59%
+00:18:27.14,56.52%,Passeriformes,99.39%,Turdidae,94.59%,Swainson's thrush,Catharus ustulatus,SWTH,68.73%
+00:18:30.69,59.74%,Passeriformes,99.73%,,55.59%,other,,,55.59%
+00:18:31.14,62.67%,Passeriformes,99.00%,Turdidae,91.34%,Swainson's thrush,Catharus ustulatus,SWTH,64.08%
+00:18:41.10,62.33%,Passeriformes,99.94%,Turdidae,90.20%,other,,,52.29%
+00:18:43.87,55.58%,Passeriformes,98.42%,Turdidae,96.71%,Swainson's thrush,Catharus ustulatus,SWTH,94.53%
+00:18:58.82,65.59%,Passeriformes,100.00%,Passerellidae,76.53%,other,,,84.16%
+00:19:03.75,60.50%,Passeriformes,99.33%,Turdidae,54.81%,Swainson's thrush,Catharus ustulatus,SWTH,57.67%
+00:19:04.15,99.99%,Passeriformes,98.07%,,50.05%,other,,,50.05%
+00:19:10.26,66.56%,Passeriformes,99.33%,,53.57%,other,,,53.57%
+00:19:13.77,61.58%,Passeriformes,99.91%,Turdidae,97.04%,Swainson's thrush,Catharus ustulatus,SWTH,68.18%
+00:19:16.53,56.71%,Passeriformes,99.72%,Passerellidae,72.57%,Savannah sparrow,Passerculus sandwichensis,SAVS,76.71%
+00:19:18.36,68.50%,Passeriformes,99.82%,Turdidae,86.22%,Swainson's thrush,Catharus ustulatus,SWTH,50.13%
+00:19:40.41,67.50%,Passeriformes,99.82%,Parulidae,55.10%,other,,,80.81%
+00:19:44.21,60.26%,Passeriformes,97.18%,Passerellidae,95.63%,Savannah sparrow,Passerculus sandwichensis,SAVS,92.74%
+00:19:48.11,98.86%,Passeriformes,98.47%,,63.44%,other,,,63.44%
+00:20:01.33,56.11%,Passeriformes,98.23%,Passerellidae,82.66%,Savannah sparrow,Passerculus sandwichensis,SAVS,56.61%
+00:20:09.38,51.71%,Passeriformes,99.31%,Passerellidae,73.08%,Savannah sparrow,Passerculus sandwichensis,SAVS,85.70%
+00:20:14.85,53.59%,Passeriformes,100.00%,Passerellidae,99.76%,Savannah sparrow,Passerculus sandwichensis,SAVS,94.55%
+00:20:15.45,67.40%,Passeriformes,99.99%,Passerellidae,99.42%,Savannah sparrow,Passerculus sandwichensis,SAVS,96.72%
+00:20:15.59,52.25%,Passeriformes,99.75%,Passerellidae,99.09%,Savannah sparrow,Passerculus sandwichensis,SAVS,57.98%
+00:20:17.42,62.54%,Passeriformes,90.71%,,64.43%,other,,,64.43%
+00:20:41.35,54.62%,Passeriformes,99.31%,,62.52%,other,,,62.52%
+00:20:45.05,64.28%,Passeriformes,99.97%,Turdidae,99.60%,Swainson's thrush,Catharus ustulatus,SWTH,63.48%
+00:20:46.73,58.94%,,90.57%,,90.57%,other,,,90.57%
+00:20:56.94,54.64%,Passeriformes,99.67%,Passerellidae,67.69%,Savannah sparrow,Passerculus sandwichensis,SAVS,72.77%
+00:20:57.29,57.65%,Passeriformes,99.97%,Parulidae,63.74%,other,,,92.91%
+00:21:05.08,56.62%,Passeriformes,99.52%,Passerellidae,61.77%,Savannah sparrow,Passerculus sandwichensis,SAVS,73.04%
+00:21:07.90,58.88%,Passeriformes,99.43%,Turdidae,76.03%,other,,,69.16%
+00:21:16.19,60.19%,Passeriformes,96.14%,Parulidae,84.48%,other,,,98.97%
+00:21:20.82,64.42%,Passeriformes,93.48%,,61.53%,other,,,61.53%
+00:21:29.95,60.71%,Passeriformes,91.81%,,68.40%,other,,,68.40%
+00:21:32.72,63.63%,Passeriformes,99.69%,Parulidae,62.75%,other,,,93.13%
+00:21:43.82,51.66%,Passeriformes,69.59%,,64.80%,other,,,64.80%
+00:21:45.94,60.39%,Passeriformes,99.78%,,52.89%,other,,,52.89%
+00:21:49.84,58.76%,Passeriformes,98.59%,,56.56%,other,,,56.56%
+00:21:51.61,68.94%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.99%
+00:21:59.02,60.48%,Passeriformes,99.18%,Turdidae,96.75%,Swainson's thrush,Catharus ustulatus,SWTH,74.38%
+00:22:01.98,63.02%,Passeriformes,98.75%,,60.91%,other,,,60.91%
+00:22:03.11,70.04%,Passeriformes,99.88%,Turdidae,99.71%,Swainson's thrush,Catharus ustulatus,SWTH,79.67%
+00:22:03.70,99.99%,Passeriformes,99.53%,Turdidae,96.58%,other,,,56.43%
+00:22:11.06,50.54%,Passeriformes,99.96%,Turdidae,99.64%,Swainson's thrush,Catharus ustulatus,SWTH,93.98%
+00:22:27.19,99.99%,Passeriformes,96.17%,Passerellidae,70.84%,other,,,72.47%
+00:22:48.85,59.51%,Passeriformes,99.93%,Parulidae,57.37%,other,,,94.39%
+00:23:01.14,63.13%,Passeriformes,99.70%,,51.11%,other,,,51.11%
+00:23:36.02,50.49%,Passeriformes,99.13%,Turdidae,76.16%,Swainson's thrush,Catharus ustulatus,SWTH,70.53%
+00:23:36.12,59.32%,Passeriformes,100.00%,Turdidae,98.79%,Swainson's thrush,Catharus ustulatus,SWTH,99.12%
+00:23:43.13,53.78%,Passeriformes,99.95%,Passerellidae,54.77%,Chipping sparrow,Spizella passerina,CHSP,56.33%
+00:23:51.02,99.99%,Passeriformes,99.88%,Parulidae,53.39%,other,,,53.98%
+00:24:17.71,57.61%,Passeriformes,99.53%,Passerellidae,67.93%,other,,,66.05%
+00:25:23.93,61.31%,Passeriformes,99.97%,Passerellidae,99.47%,Savannah sparrow,Passerculus sandwichensis,SAVS,99.58%
+00:25:28.62,51.25%,Passeriformes,99.99%,Passerellidae,60.52%,Savannah sparrow,Passerculus sandwichensis,SAVS,86.01%
+00:25:44.46,60.13%,Passeriformes,96.41%,Passerellidae,68.30%,other,,,52.61%
+00:26:00.05,99.99%,Passeriformes,99.88%,Passerellidae,51.71%,other,,,84.31%
+00:26:00.69,59.71%,Passeriformes,100.00%,Passerellidae,76.55%,Savannah sparrow,Passerculus sandwichensis,SAVS,92.45%
+00:26:59.21,63.73%,Passeriformes,99.90%,Turdidae,99.89%,Swainson's thrush,Catharus ustulatus,SWTH,99.63%
+00:27:45.69,60.25%,Passeriformes,99.67%,Turdidae,76.32%,Swainson's thrush,Catharus ustulatus,SWTH,50.21%
+00:27:45.79,66.78%,Passeriformes,99.99%,Turdidae,76.88%,Swainson's thrush,Catharus ustulatus,SWTH,78.78%
+00:28:01.19,59.48%,Passeriformes,98.86%,Turdidae,74.12%,other,,,59.52%
+00:28:03.85,56.00%,Passeriformes,99.48%,Turdidae,96.57%,Swainson's thrush,Catharus ustulatus,SWTH,87.26%
+00:28:11.55,53.11%,Passeriformes,99.93%,Turdidae,99.90%,Swainson's thrush,Catharus ustulatus,SWTH,99.40%
+00:28:25.27,57.95%,Passeriformes,98.24%,,63.18%,other,,,63.18%
+00:28:25.36,53.49%,Passeriformes,99.98%,Turdidae,99.97%,Swainson's thrush,Catharus ustulatus,SWTH,99.71%
+00:28:30.40,61.07%,Passeriformes,99.63%,Turdidae,98.65%,Swainson's thrush,Catharus ustulatus,SWTH,75.68%
+00:28:37.21,51.54%,Passeriformes,99.70%,,64.33%,other,,,64.33%
+00:28:40.27,57.57%,Passeriformes,99.04%,Passerellidae,97.56%,Savannah sparrow,Passerculus sandwichensis,SAVS,92.12%
+00:28:41.55,59.11%,Passeriformes,100.00%,Turdidae,99.98%,Swainson's thrush,Catharus ustulatus,SWTH,98.49%
+00:28:47.07,99.99%,Passeriformes,98.62%,,61.20%,other,,,61.20%
+00:28:54.23,57.60%,Passeriformes,97.81%,,61.13%,other,,,61.13%
+00:28:58.42,60.04%,Passeriformes,99.87%,Turdidae,96.92%,Swainson's thrush,Catharus ustulatus,SWTH,56.88%
+00:28:59.95,51.63%,Passeriformes,99.88%,Turdidae,99.50%,Swainson's thrush,Catharus ustulatus,SWTH,97.51%
+00:29:08.64,63.04%,Passeriformes,99.93%,Turdidae,99.75%,Swainson's thrush,Catharus ustulatus,SWTH,91.30%
+00:29:13.37,51.09%,Passeriformes,94.86%,Passerellidae,77.12%,Savannah sparrow,Passerculus sandwichensis,SAVS,61.54%
+00:29:13.72,63.81%,Passeriformes,99.60%,,53.45%,other,,,53.45%
+00:29:17.03,58.90%,Passeriformes,98.53%,Passerellidae,73.37%,Savannah sparrow,Passerculus sandwichensis,SAVS,66.09%
+00:29:45.00,70.80%,Passeriformes,99.97%,Turdidae,98.82%,Swainson's thrush,Catharus ustulatus,SWTH,92.42%
+00:29:45.79,64.52%,Passeriformes,99.89%,Passerellidae,99.90%,Savannah sparrow,Passerculus sandwichensis,SAVS,98.90%
+00:29:52.01,52.12%,Passeriformes,99.96%,Turdidae,77.70%,other,,,65.30%
+00:29:53.14,99.99%,Passeriformes,99.60%,Passerellidae,98.53%,Savannah sparrow,Passerculus sandwichensis,SAVS,98.96%
+00:29:55.81,54.14%,Passeriformes,99.98%,Turdidae,99.74%,Swainson's thrush,Catharus ustulatus,SWTH,91.49%
+00:29:55.91,61.45%,Passeriformes,99.97%,,52.18%,other,,,52.18%
+00:29:56.80,77.50%,Passeriformes,100.00%,Parulidae,97.43%,Ovenbird,Seiurus aurocapilla,OVEN,81.70%
+00:29:58.23,60.08%,Passeriformes,89.40%,,57.88%,other,,,57.88%
+00:30:04.59,64.59%,Passeriformes,99.99%,Passerellidae,98.96%,Savannah sparrow,Passerculus sandwichensis,SAVS,98.51%
+00:30:06.46,63.30%,Passeriformes,99.98%,Turdidae,94.02%,Swainson's thrush,Catharus ustulatus,SWTH,84.42%
+00:30:12.88,71.29%,Passeriformes,99.55%,Turdidae,97.63%,Swainson's thrush,Catharus ustulatus,SWTH,71.72%
+00:30:14.06,99.99%,Passeriformes,99.39%,Passerellidae,69.37%,Savannah sparrow,Passerculus sandwichensis,SAVS,69.46%
+00:30:18.01,66.80%,Passeriformes,99.58%,Parulidae,86.27%,Ovenbird,Seiurus aurocapilla,OVEN,64.91%
+00:30:22.35,63.17%,Passeriformes,99.98%,Turdidae,99.88%,Swainson's thrush,Catharus ustulatus,SWTH,93.72%
+00:30:23.59,62.60%,Passeriformes,99.65%,Turdidae,59.55%,other,,,81.87%
+00:30:31.58,99.99%,Passeriformes,58.74%,,58.19%,other,,,58.19%
+00:30:34.64,51.17%,Passeriformes,99.59%,Turdidae,55.40%,other,,,63.63%
+00:30:36.27,51.91%,Passeriformes,99.88%,Turdidae,84.69%,Swainson's thrush,Catharus ustulatus,SWTH,77.53%
+00:30:49.19,77.13%,Passeriformes,99.26%,Turdidae,96.36%,other,,,70.53%
+00:30:50.77,77.17%,Passeriformes,98.16%,Turdidae,54.53%,other,,,78.45%
+00:30:52.20,61.68%,Passeriformes,99.64%,Passerellidae,54.50%,Savannah sparrow,Passerculus sandwichensis,SAVS,51.35%
+00:30:52.99,75.24%,Passeriformes,99.45%,Passerellidae,94.72%,Savannah sparrow,Passerculus sandwichensis,SAVS,98.60%
+00:31:01.97,99.99%,Passeriformes,99.88%,Turdidae,99.74%,Swainson's thrush,Catharus ustulatus,SWTH,97.78%
+00:31:12.19,63.59%,Passeriformes,99.89%,Passerellidae,99.48%,Savannah sparrow,Passerculus sandwichensis,SAVS,95.35%
+00:31:16.28,56.46%,Passeriformes,98.50%,Turdidae,57.29%,other,,,62.67%
+00:31:18.55,71.61%,Passeriformes,99.73%,Turdidae,62.44%,other,,,54.97%
+00:31:33.50,60.52%,Passeriformes,99.59%,Turdidae,98.36%,Swainson's thrush,Catharus ustulatus,SWTH,91.56%
+00:31:39.47,99.99%,Passeriformes,93.61%,Turdidae,90.18%,other,,,58.62%
+00:32:16.78,67.30%,Passeriformes,85.15%,Parulidae,68.57%,other,,,94.31%
+00:32:34.64,53.26%,Passeriformes,93.69%,,64.97%,other,,,64.97%
+00:32:44.46,99.99%,Passeriformes,99.96%,Parulidae,50.09%,other,,,75.30%
+00:32:47.81,61.40%,Passeriformes,99.95%,Parulidae,82.19%,other,,,93.66%
+00:32:58.37,62.18%,Passeriformes,99.92%,,50.43%,other,,,50.43%
+00:32:59.51,59.11%,Passeriformes,99.80%,Passerellidae,58.22%,other,,,66.21%
+00:33:28.42,57.98%,Passeriformes,99.91%,Turdidae,69.09%,Swainson's thrush,Catharus ustulatus,SWTH,50.15%
+00:33:29.46,59.77%,Passeriformes,89.34%,Parulidae,75.94%,other,,,69.50%
+00:33:38.24,50.06%,Passeriformes,99.01%,Passerellidae,83.54%,Savannah sparrow,Passerculus sandwichensis,SAVS,64.35%
+00:33:41.40,63.48%,Passeriformes,90.47%,,54.76%,other,,,54.76%
+00:33:46.04,64.20%,Passeriformes,98.30%,Passerellidae,95.49%,Savannah sparrow,Passerculus sandwichensis,SAVS,95.67%
+00:33:58.67,58.49%,Passeriformes,99.74%,Turdidae,90.63%,Swainson's thrush,Catharus ustulatus,SWTH,78.10%
+00:34:07.16,55.29%,Passeriformes,99.74%,Turdidae,73.11%,Swainson's thrush,Catharus ustulatus,SWTH,54.71%
+00:34:08.49,63.41%,Passeriformes,98.16%,,52.92%,other,,,52.92%
+00:34:08.69,53.73%,Passeriformes,99.58%,Turdidae,94.93%,Swainson's thrush,Catharus ustulatus,SWTH,91.68%
+00:34:12.44,62.12%,Passeriformes,99.85%,Turdidae,70.00%,Swainson's thrush,Catharus ustulatus,SWTH,68.20%
+00:34:17.91,99.99%,Passeriformes,96.16%,,54.87%,other,,,54.87%
+00:34:49.54,60.64%,Passeriformes,99.90%,Turdidae,99.20%,Swainson's thrush,Catharus ustulatus,SWTH,88.10%
+00:35:01.53,66.34%,Passeriformes,99.79%,Parulidae,53.15%,other,,,95.67%
+00:35:06.12,50.02%,Passeriformes,100.00%,Turdidae,99.75%,Swainson's thrush,Catharus ustulatus,SWTH,86.63%
+00:35:09.62,99.99%,Passeriformes,99.98%,Turdidae,83.16%,Swainson's thrush,Catharus ustulatus,SWTH,88.08%
+00:35:26.30,63.85%,Passeriformes,99.87%,Turdidae,96.55%,Swainson's thrush,Catharus ustulatus,SWTH,64.72%
+00:35:35.18,57.54%,Passeriformes,99.99%,Turdidae,99.53%,Swainson's thrush,Catharus ustulatus,SWTH,98.97%
+00:35:36.42,80.49%,Passeriformes,99.73%,Turdidae,93.69%,Swainson's thrush,Catharus ustulatus,SWTH,79.00%
+00:35:39.48,77.78%,Passeriformes,99.50%,Passerellidae,77.44%,Savannah sparrow,Passerculus sandwichensis,SAVS,78.65%
+00:35:41.79,61.53%,Passeriformes,100.00%,Turdidae,99.94%,Swainson's thrush,Catharus ustulatus,SWTH,69.07%
+00:35:42.88,56.68%,Passeriformes,99.87%,Passerellidae,86.29%,other,,,51.36%
+00:35:43.37,68.41%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.98%
+00:35:43.87,60.18%,Passeriformes,98.66%,Parulidae,60.37%,other,,,62.07%
+00:35:45.54,63.12%,Passeriformes,99.95%,Turdidae,99.88%,Swainson's thrush,Catharus ustulatus,SWTH,95.46%
+00:35:51.02,51.15%,Passeriformes,99.23%,Turdidae,75.93%,Swainson's thrush,Catharus ustulatus,SWTH,51.22%
+00:35:52.30,55.57%,Passeriformes,99.82%,Parulidae,56.95%,other,,,82.82%
+00:35:55.07,99.99%,Passeriformes,93.76%,Passerellidae,56.09%,Savannah sparrow,Passerculus sandwichensis,SAVS,59.31%
+00:35:55.76,57.93%,Passeriformes,99.97%,Turdidae,99.36%,Swainson's thrush,Catharus ustulatus,SWTH,94.60%
+00:35:59.85,99.99%,Passeriformes,99.96%,Turdidae,98.22%,Swainson's thrush,Catharus ustulatus,SWTH,78.45%
+00:36:01.43,99.99%,Passeriformes,97.96%,Passerellidae,84.77%,Savannah sparrow,Passerculus sandwichensis,SAVS,80.49%
+00:36:03.31,80.96%,Passeriformes,99.39%,Parulidae,59.66%,other,,,90.82%
+00:36:04.44,99.99%,Passeriformes,97.47%,Turdidae,94.79%,Swainson's thrush,Catharus ustulatus,SWTH,84.26%
+00:36:06.32,70.77%,Passeriformes,99.99%,Parulidae,98.06%,Ovenbird,Seiurus aurocapilla,OVEN,55.24%
+00:36:14.85,71.57%,Passeriformes,99.98%,Turdidae,99.96%,Swainson's thrush,Catharus ustulatus,SWTH,99.08%
+00:36:15.89,62.82%,Passeriformes,87.90%,,61.85%,other,,,61.85%
+00:36:21.27,57.75%,Passeriformes,99.96%,Turdidae,91.42%,Swainson's thrush,Catharus ustulatus,SWTH,70.58%
+00:36:39.77,54.89%,Passeriformes,99.32%,Passerellidae,97.37%,Savannah sparrow,Passerculus sandwichensis,SAVS,95.10%
+00:36:55.27,64.26%,Passeriformes,99.93%,Turdidae,99.96%,Swainson's thrush,Catharus ustulatus,SWTH,99.56%
+00:37:04.69,79.96%,Passeriformes,99.87%,Turdidae,98.57%,Swainson's thrush,Catharus ustulatus,SWTH,83.31%
+00:37:34.74,65.13%,Passeriformes,100.00%,Passerellidae,99.94%,Savannah sparrow,Passerculus sandwichensis,SAVS,52.95%
+00:37:53.14,56.75%,Passeriformes,99.07%,Parulidae,53.76%,other,,,88.49%
+00:38:04.89,83.45%,Passeriformes,93.52%,,99.17%,other,,,99.17%
+00:38:19.49,50.18%,Passeriformes,99.97%,Turdidae,93.44%,Swainson's thrush,Catharus ustulatus,SWTH,60.09%
+00:38:22.45,54.56%,Passeriformes,99.99%,Parulidae,66.21%,Ovenbird,Seiurus aurocapilla,OVEN,64.78%
+00:38:31.18,99.99%,Passeriformes,99.18%,,81.07%,other,,,81.07%
+00:38:39.87,51.41%,Passeriformes,95.72%,Passerellidae,50.59%,other,,,52.30%
+00:38:43.72,57.07%,Passeriformes,97.70%,,55.85%,other,,,55.85%
+00:39:01.48,99.99%,Passeriformes,94.39%,Parulidae,63.40%,other,,,78.88%
+00:39:06.17,63.80%,,77.51%,,77.51%,other,,,77.51%
+00:39:22.45,64.51%,Passeriformes,77.59%,Passerellidae,56.84%,other,,,57.49%
+00:39:50.92,64.62%,Passeriformes,99.99%,Turdidae,99.58%,Swainson's thrush,Catharus ustulatus,SWTH,97.02%
+00:40:05.13,63.16%,Passeriformes,99.87%,Turdidae,99.86%,Swainson's thrush,Catharus ustulatus,SWTH,96.10%
+00:40:09.67,52.16%,Passeriformes,98.26%,Parulidae,79.25%,other,,,70.95%
+00:40:13.03,67.28%,Passeriformes,99.99%,Turdidae,99.83%,Swainson's thrush,Catharus ustulatus,SWTH,96.71%
+00:40:23.34,99.99%,Passeriformes,87.05%,Turdidae,81.87%,other,,,66.02%
+00:40:23.59,75.11%,Passeriformes,100.00%,Turdidae,99.94%,Swainson's thrush,Catharus ustulatus,SWTH,98.48%
+00:40:32.96,99.99%,Passeriformes,99.76%,,53.93%,other,,,53.93%
+00:40:38.34,51.38%,Passeriformes,93.69%,,58.79%,other,,,58.79%
+00:40:43.22,64.62%,Passeriformes,99.83%,Turdidae,99.85%,Swainson's thrush,Catharus ustulatus,SWTH,99.39%
+00:40:47.22,89.14%,Passeriformes,99.90%,Parulidae,97.47%,Ovenbird,Seiurus aurocapilla,OVEN,91.79%
+00:41:08.34,55.48%,Passeriformes,92.55%,Passerellidae,56.10%,other,,,64.13%
+00:41:16.33,57.42%,Passeriformes,99.73%,Turdidae,99.23%,Swainson's thrush,Catharus ustulatus,SWTH,96.98%
+00:41:18.36,53.24%,Passeriformes,99.36%,Passerellidae,75.90%,Savannah sparrow,Passerculus sandwichensis,SAVS,64.92%
+00:41:19.24,61.82%,Passeriformes,99.92%,Turdidae,99.71%,Swainson's thrush,Catharus ustulatus,SWTH,92.17%
+00:41:34.15,62.86%,Passeriformes,99.72%,Parulidae,66.16%,Ovenbird,Seiurus aurocapilla,OVEN,68.77%
+00:42:01.53,85.26%,Passeriformes,99.77%,Passerellidae,71.48%,other,,,50.30%
+00:42:56.70,61.73%,Passeriformes,100.00%,Parulidae,96.21%,other,,,98.43%
+00:43:02.47,63.75%,Passeriformes,83.01%,,69.31%,other,,,69.31%
+00:43:06.81,58.39%,Passeriformes,99.24%,Passerellidae,63.41%,Savannah sparrow,Passerculus sandwichensis,SAVS,52.57%
+00:43:45.55,64.93%,,63.56%,,63.56%,other,,,63.56%
+00:43:57.68,62.11%,Passeriformes,73.80%,,73.71%,other,,,73.71%
+00:44:21.96,50.75%,Passeriformes,99.58%,Turdidae,90.11%,Swainson's thrush,Catharus ustulatus,SWTH,61.21%
+00:44:22.65,61.03%,Passeriformes,100.00%,Parulidae,89.78%,Ovenbird,Seiurus aurocapilla,OVEN,86.28%
+00:44:36.02,53.88%,Passeriformes,99.07%,,58.22%,other,,,58.22%
+00:44:44.76,51.90%,Passeriformes,99.63%,Turdidae,99.11%,Swainson's thrush,Catharus ustulatus,SWTH,90.16%
+00:44:48.21,63.74%,Passeriformes,99.52%,Parulidae,59.66%,other,,,88.85%
+00:44:49.74,57.63%,Passeriformes,98.54%,Passerellidae,91.75%,Savannah sparrow,Passerculus sandwichensis,SAVS,81.39%
+00:44:53.49,56.70%,Passeriformes,99.54%,Parulidae,55.71%,other,,,94.60%
+00:45:02.22,58.21%,Passeriformes,97.56%,Passerellidae,50.53%,other,,,66.11%
+00:45:11.35,63.42%,Passeriformes,100.00%,Passerellidae,100.00%,White-throated sparrow,Zonotrichia albicollis,WTSP,98.65%
+00:45:19.88,58.11%,Passeriformes,99.01%,Passerellidae,92.26%,Savannah sparrow,Passerculus sandwichensis,SAVS,62.06%
+00:45:21.37,61.66%,Passeriformes,99.65%,Parulidae,56.77%,other,,,71.33%
+00:45:25.56,61.55%,Passeriformes,99.88%,Parulidae,82.48%,Bay-breasted warbler,Setophaga castanea,BBWA,89.88%
+00:45:44.95,99.99%,Passeriformes,100.00%,Passerellidae,98.18%,Chipping sparrow,Spizella passerina,CHSP,94.45%
+00:45:47.22,57.34%,Passeriformes,96.84%,Passerellidae,86.75%,Savannah sparrow,Passerculus sandwichensis,SAVS,62.08%
+00:45:55.16,53.81%,Passeriformes,99.87%,Turdidae,87.16%,other,,,57.88%
+00:46:08.14,55.76%,Passeriformes,99.66%,Turdidae,54.89%,other,,,76.38%
+00:46:18.55,65.68%,Passeriformes,98.30%,Passerellidae,62.60%,Savannah sparrow,Passerculus sandwichensis,SAVS,72.24%
+00:46:47.07,53.56%,Passeriformes,98.83%,Parulidae,60.42%,other,,,79.38%
+00:47:07.11,58.66%,Passeriformes,99.58%,Turdidae,64.94%,other,,,69.58%
+00:47:10.41,60.92%,,68.57%,,68.57%,other,,,68.57%
+00:47:47.81,54.76%,Passeriformes,97.99%,Passerellidae,85.08%,Savannah sparrow,Passerculus sandwichensis,SAVS,65.58%
+00:48:03.46,99.99%,Passeriformes,99.99%,Turdidae,95.52%,Swainson's thrush,Catharus ustulatus,SWTH,75.89%
+00:48:23.04,66.14%,Passeriformes,99.82%,Turdidae,87.73%,Swainson's thrush,Catharus ustulatus,SWTH,74.90%
+00:48:33.85,50.29%,Passeriformes,96.62%,Turdidae,81.99%,Swainson's thrush,Catharus ustulatus,SWTH,62.73%
+00:48:44.36,63.53%,Passeriformes,99.75%,Turdidae,87.42%,Swainson's thrush,Catharus ustulatus,SWTH,59.00%
+00:48:51.22,65.73%,Passeriformes,99.98%,Turdidae,99.71%,Swainson's thrush,Catharus ustulatus,SWTH,93.90%
+00:49:13.42,52.63%,Passeriformes,98.74%,Passerellidae,79.07%,Savannah sparrow,Passerculus sandwichensis,SAVS,70.76%
+00:49:16.28,64.84%,Passeriformes,96.63%,,61.11%,other,,,61.11%
+00:49:18.80,74.37%,Passeriformes,99.99%,Turdidae,99.91%,Gray-cheeked thrush,Catharus minimus,GCTH,51.72%
+00:49:19.00,53.83%,Passeriformes,99.44%,Turdidae,98.83%,Swainson's thrush,Catharus ustulatus,SWTH,92.11%
+00:49:19.84,52.34%,Passeriformes,99.95%,Turdidae,99.83%,Swainson's thrush,Catharus ustulatus,SWTH,99.55%
+00:49:21.66,64.05%,Passeriformes,99.97%,Turdidae,98.19%,Swainson's thrush,Catharus ustulatus,SWTH,85.39%
+00:49:38.74,56.93%,Passeriformes,97.22%,,53.04%,other,,,53.04%
+00:50:32.77,64.52%,Passeriformes,99.41%,Parulidae,81.23%,other,,,74.07%
+00:50:43.37,52.94%,Passeriformes,99.63%,Turdidae,95.97%,Swainson's thrush,Catharus ustulatus,SWTH,92.36%
+00:50:46.68,70.84%,Passeriformes,98.88%,Passerellidae,72.17%,other,,,51.80%
+00:50:49.49,52.63%,Passeriformes,99.94%,Passerellidae,90.64%,Savannah sparrow,Passerculus sandwichensis,SAVS,97.52%
+00:50:50.97,60.62%,Passeriformes,99.67%,Turdidae,93.54%,Swainson's thrush,Catharus ustulatus,SWTH,62.70%
+00:50:52.80,64.20%,Passeriformes,98.76%,Parulidae,63.36%,other,,,90.18%
+00:50:54.87,62.15%,Passeriformes,99.62%,Turdidae,96.60%,Swainson's thrush,Catharus ustulatus,SWTH,88.07%
+00:51:02.72,99.99%,Passeriformes,99.42%,Turdidae,98.84%,Swainson's thrush,Catharus ustulatus,SWTH,74.27%
+00:51:10.02,61.45%,Passeriformes,98.27%,Passerellidae,86.27%,Savannah sparrow,Passerculus sandwichensis,SAVS,70.91%
+00:51:12.44,59.58%,Passeriformes,99.80%,Cardinalidae,87.72%,Rose-breasted grosbeak,Pheucticus ludovicianus,RBGR,82.51%
+00:51:13.32,66.18%,Passeriformes,99.73%,Passerellidae,56.18%,Savannah sparrow,Passerculus sandwichensis,SAVS,58.17%
+00:51:26.60,56.75%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,99.99%
+00:51:27.34,73.25%,Passeriformes,99.69%,Passerellidae,84.27%,Savannah sparrow,Passerculus sandwichensis,SAVS,69.57%
+00:51:28.92,99.99%,Passeriformes,99.38%,Turdidae,89.61%,other,,,72.60%
+00:51:41.01,57.15%,Passeriformes,99.30%,Turdidae,58.29%,Swainson's thrush,Catharus ustulatus,SWTH,53.28%
+00:51:44.46,50.15%,Passeriformes,98.88%,Passerellidae,78.42%,Savannah sparrow,Passerculus sandwichensis,SAVS,67.06%
+00:51:44.76,63.68%,Passeriformes,99.84%,Passerellidae,75.46%,Savannah sparrow,Passerculus sandwichensis,SAVS,63.65%
+00:51:50.68,99.99%,Passeriformes,99.91%,Passerellidae,51.96%,other,,,52.13%
+00:51:51.91,57.52%,Passeriformes,99.95%,Parulidae,70.42%,Ovenbird,Seiurus aurocapilla,OVEN,52.43%
+00:51:57.63,63.56%,Passeriformes,95.58%,,59.95%,other,,,59.95%
+00:52:00.69,64.37%,Passeriformes,99.98%,Turdidae,99.85%,Swainson's thrush,Catharus ustulatus,SWTH,99.78%
+00:52:01.09,56.54%,Passeriformes,99.13%,Turdidae,60.95%,other,,,79.27%
+00:52:06.22,74.02%,Passeriformes,99.99%,Turdidae,73.44%,other,,,65.51%
+00:52:07.21,56.98%,Passeriformes,99.68%,Passerellidae,61.24%,Savannah sparrow,Passerculus sandwichensis,SAVS,66.68%
+00:52:15.40,53.67%,Passeriformes,98.74%,Turdidae,69.70%,other,,,50.56%
+00:52:23.88,57.48%,Passeriformes,100.00%,Turdidae,99.62%,Swainson's thrush,Catharus ustulatus,SWTH,95.63%
+00:52:26.99,54.77%,Passeriformes,99.82%,,62.90%,other,,,62.90%
+00:52:28.97,99.99%,Passeriformes,98.88%,Turdidae,97.28%,Swainson's thrush,Catharus ustulatus,SWTH,86.31%
+00:52:31.18,70.47%,Passeriformes,99.97%,Turdidae,99.96%,Swainson's thrush,Catharus ustulatus,SWTH,95.92%
+00:52:32.86,93.30%,Passeriformes,99.37%,Turdidae,76.35%,other,,,70.26%
+00:52:39.52,58.91%,Passeriformes,99.10%,Turdidae,88.83%,other,,,52.05%
+00:53:02.66,58.42%,Passeriformes,99.69%,Turdidae,96.83%,Swainson's thrush,Catharus ustulatus,SWTH,65.88%
+00:53:20.87,99.99%,Passeriformes,99.99%,Parulidae,91.32%,Ovenbird,Seiurus aurocapilla,OVEN,85.25%
+00:53:25.66,60.84%,Passeriformes,98.28%,Turdidae,69.57%,Swainson's thrush,Catharus ustulatus,SWTH,53.22%
+00:53:37.65,99.99%,Passeriformes,99.98%,Turdidae,77.11%,Swainson's thrush,Catharus ustulatus,SWTH,82.39%
+00:53:39.33,58.75%,Passeriformes,98.41%,Turdidae,94.29%,other,,,58.91%
+00:53:44.26,52.15%,Passeriformes,98.55%,Turdidae,88.96%,Swainson's thrush,Catharus ustulatus,SWTH,68.67%
+00:53:51.81,58.25%,Passeriformes,97.87%,Passerellidae,79.58%,Savannah sparrow,Passerculus sandwichensis,SAVS,57.09%
+00:53:55.02,56.32%,Passeriformes,99.16%,Turdidae,82.86%,Swainson's thrush,Catharus ustulatus,SWTH,58.20%
+00:55:08.04,54.05%,Passeriformes,99.99%,Turdidae,99.92%,Swainson's thrush,Catharus ustulatus,SWTH,99.25%
+00:55:22.70,61.55%,Passeriformes,99.30%,Turdidae,90.21%,Swainson's thrush,Catharus ustulatus,SWTH,81.84%
+00:55:25.21,66.21%,Passeriformes,98.60%,Turdidae,76.86%,other,,,58.48%
+00:55:28.08,54.09%,Passeriformes,99.39%,Turdidae,82.32%,Swainson's thrush,Catharus ustulatus,SWTH,84.17%
+00:55:45.94,61.69%,Passeriformes,99.78%,,52.36%,other,,,52.36%
+00:55:59.61,99.99%,Passeriformes,99.75%,Turdidae,97.92%,Swainson's thrush,Catharus ustulatus,SWTH,90.20%
+00:56:12.14,61.44%,Passeriformes,100.00%,Passerellidae,100.00%,White-throated sparrow,Zonotrichia albicollis,WTSP,98.41%
+00:56:19.10,65.18%,Passeriformes,100.00%,Passerellidae,100.00%,White-throated sparrow,Zonotrichia albicollis,WTSP,80.31%
+00:56:28.72,50.48%,Passeriformes,99.88%,,56.51%,other,,,56.51%
+00:57:06.47,72.42%,Passeriformes,99.92%,Turdidae,99.49%,Swainson's thrush,Catharus ustulatus,SWTH,98.59%
+00:57:18.21,56.16%,Passeriformes,99.99%,Turdidae,99.99%,Swainson's thrush,Catharus ustulatus,SWTH,99.94%
+00:57:21.27,53.57%,Passeriformes,99.89%,Turdidae,72.19%,Swainson's thrush,Catharus ustulatus,SWTH,76.20%
+00:58:02.22,68.13%,Passeriformes,100.00%,Turdidae,100.00%,Swainson's thrush,Catharus ustulatus,SWTH,100.00%
+00:58:22.95,58.35%,Passeriformes,99.59%,Parulidae,95.63%,Bay-breasted warbler,Setophaga castanea,BBWA,78.85%
+00:58:32.91,65.75%,Passeriformes,98.93%,Turdidae,94.19%,Swainson's thrush,Catharus ustulatus,SWTH,77.05%
+00:59:21.12,62.47%,Passeriformes,99.86%,Passerellidae,53.33%,other,,,68.85%
