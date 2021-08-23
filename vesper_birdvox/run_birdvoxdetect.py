@@ -9,6 +9,13 @@ import sys
 import birdvoxdetect
 
 
+# TODO: Consider making checklist file processors classes and moving each
+# one to its own module. That separation might make it easier to add new
+# processors.
+
+# TODO: Add checklist processor unit tests, mainly to help prevent regressions.
+
+
 def main():
     
     args = parse_args()
@@ -21,7 +28,7 @@ def main():
         threshold=args.threshold,
         detector_name=detector_name)
     
-    create_detection_file(args.output_dir, args.file_path)
+    process_checklist_file(args.output_dir, args.file_path)
 
 
 def parse_args():
@@ -81,7 +88,7 @@ def get_detector_name(threshold_adaptive):
         return 'birdvoxdetect-v03_trial-12_network_epoch-068'
 
 
-def create_detection_file(output_dir_path, audio_file_path):
+def process_checklist_file(output_dir_path, audio_file_path):
     
     # Get output directory path.
     if output_dir_path is None:
@@ -97,24 +104,24 @@ def create_detection_file(output_dir_path, audio_file_path):
     with open(checklist_file_path, 'r', newline='') as checklist_file, \
             open(detection_file_path, 'w', newline='') as detection_file:
         
-        # Get detection file format from checklist file header.
+        # Get checklist file processor.
         reader = csv.reader(checklist_file)
-        detection_file_format = get_detection_file_format(reader)
+        processor = get_checklist_file_processor(reader)
         
-        # Write detection file
+        # Process checklist file.
         writer = csv.writer(detection_file)
-        write_detection_file(reader, writer, detection_file_format)
+        write_detection_file(reader, writer, processor)
 
 
-def get_detection_file_format(reader):
+def get_checklist_file_processor(reader):
     
     # Read checklist file header.
     checklist_column_names = tuple(reader.__next__())
     
     try:
         
-        # Get detection file format from checklist column names.
-        return DETECTION_FILE_FORMATS[checklist_column_names]
+        # Get checklist file processor from checklist column names.
+        return CHECKLIST_FILE_PROCESSORS[checklist_column_names]
     
     except KeyError:
         handle_fatal_error(
@@ -127,21 +134,21 @@ def handle_fatal_error(message):
     sys.exit(-1)
 
 
-def write_detection_file(reader, writer, detection_file_format):
+def write_detection_file(reader, writer, checklist_file_processor):
     
-    column_names, row_transformer = detection_file_format
+    column_names, process_checklist_row = checklist_file_processor
     
     # Write header.
     writer.writerow(column_names)
     
     # Write detections.
     for input_row in reader:
-        output_row = row_transformer(input_row)
+        output_row = process_checklist_row(input_row)
         writer.writerow(output_row)
 
 
-def get_detection_file_row_3(checklist_row):
-    time, species, detector_score = checklist_row
+def process_checklist_file_row_3(row):
+    time, species, detector_score = row
     time = parse_time(time)
     classification, _ = get_classification(species)
     return time, detector_score, classification, species
@@ -184,7 +191,7 @@ def get_classification(
         return None, None
 
 
-def get_detection_file_row_5(checklist_row):
+def process_checklist_file_row_5(checklist_row):
     time, species, family, order, detector_score = checklist_row
     time = parse_time(time)
     order = get_order(order)
@@ -208,7 +215,7 @@ def get_order(order):
     return ORDER_NAME_CORRECTIONS.get(order, order)
 
 
-def get_detection_file_row_8(checklist_row):
+def process_checklist_file_row_8(checklist_row):
     
     (time, detector_score, order, order_score, family, family_score, species,
      species_score) = checklist_row
@@ -225,7 +232,7 @@ def get_detection_file_row_8(checklist_row):
         order_score, family, family_score, species, species_score)
 
 
-def get_detection_file_row_10(checklist_row):
+def process_checklist_file_row_10(checklist_row):
     
     
     def parse_score(score):
@@ -290,10 +297,11 @@ def get_detection_file_row_10(checklist_row):
         species_scientific_name, species_code, species_score)
 
 
-SHARED_COLUMN_NAMES = ('Time', 'Detector Score', 'Classification')
+COMMON_DETECTION_FILE_COLUMN_NAMES = (
+    'Time', 'Detector Score', 'Classification')
 
 
-DETECTION_FILE_FORMATS = {
+CHECKLIST_FILE_PROCESSORS = {
     
     # three-column checklist of BirdVoxDetect 0.2.x and 0.3.0
     (
@@ -302,10 +310,10 @@ DETECTION_FILE_FORMATS = {
         'Confidence (%)',              # 2
     ): (
         
-        SHARED_COLUMN_NAMES + (
+        COMMON_DETECTION_FILE_COLUMN_NAMES + (
             'BirdVoxClassify Species',),
         
-        get_detection_file_row_3
+        process_checklist_file_row_3
     
     ),
     
@@ -318,12 +326,12 @@ DETECTION_FILE_FORMATS = {
         'Confidence (%)'               # 4
     ): (
         
-        SHARED_COLUMN_NAMES + (
+        COMMON_DETECTION_FILE_COLUMN_NAMES + (
             'BirdVoxClassify Order',
             'BirdVoxClassify Family',
             'BirdVoxClassify Species'),
         
-        get_detection_file_row_5
+        process_checklist_file_row_5
         
     ),
     
@@ -339,7 +347,7 @@ DETECTION_FILE_FORMATS = {
         'Species confidence (%)'       # 7
     ): (
         
-        SHARED_COLUMN_NAMES + (
+        COMMON_DETECTION_FILE_COLUMN_NAMES + (
             'Classification Score',
             'BirdVoxClassify Order',
             'BirdVoxClassify Order Confidence',
@@ -348,7 +356,7 @@ DETECTION_FILE_FORMATS = {
             'BirdVoxClassify Species',
             'BirdVoxClassify Species Confidence'),
         
-        get_detection_file_row_8
+        process_checklist_file_row_8
         
     ),
     
@@ -366,7 +374,7 @@ DETECTION_FILE_FORMATS = {
         'Species confidence (%)'       # 9
     ): (
         
-        SHARED_COLUMN_NAMES + (
+        COMMON_DETECTION_FILE_COLUMN_NAMES + (
             'Classification Score',
             'BirdVoxClassify Order',
             'BirdVoxClassify Order Confidence',
@@ -377,7 +385,7 @@ DETECTION_FILE_FORMATS = {
             'BirdVoxClassify Species Code',
             'BirdVoxClassify Species Confidence'),
         
-        get_detection_file_row_10
+        process_checklist_file_row_10
         
     ),
 
