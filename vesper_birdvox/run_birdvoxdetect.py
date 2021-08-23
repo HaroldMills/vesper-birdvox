@@ -225,6 +225,71 @@ def get_detection_file_row_8(checklist_row):
         order_score, family, family_score, species, species_score)
 
 
+def get_detection_file_row_10(checklist_row):
+    
+    
+    def parse_score(score):
+        return float(score[:-1])    # Score always ends with "%".
+
+
+    def get_species_english_name(name):
+        
+        if name is None or name == 'other':
+            # don't have name
+            
+            return None
+        
+        else:
+            # have name
+            
+            # Make name title case.
+            parts = name.split(' ')
+            parts = [p.capitalize() for p in parts]
+            return ' '.join(parts)
+
+
+    def get_classification(
+            species_code, species_score, family, family_score, order,
+            order_score):
+        
+        if species_code is not None:
+            return CLASSIFICATION_PREFIX + species_code, species_score
+        
+        elif family is not None:
+            return CLASSIFICATION_PREFIX + family, family_score
+        
+        elif order is not None:
+            return CLASSIFICATION_PREFIX + order, order_score
+        
+        else:
+            return None, None
+
+
+    # Replace empty string cell values with `None`.
+    checklist_row = [None if c == '' else c for c in checklist_row]
+    
+    (time, detector_score, order, order_score, family, family_score,
+     species_english_name, species_scientific_name, species_code,
+     species_score) = checklist_row
+    
+    time = parse_time(time)
+    
+    detector_score = parse_score(detector_score)
+    order_score = parse_score(order_score)
+    family_score = parse_score(family_score)
+    species_score = parse_score(species_score)
+    
+    species_english_name = get_species_english_name(species_english_name)
+    
+    classification, classification_score = get_classification(
+        species_code, species_score, family, family_score, order, order_score)
+    
+    return (
+        time, detector_score, classification, classification_score, order,
+        order_score, family, family_score, species_english_name,
+        species_scientific_name, species_code, species_score)
+
+
 SHARED_COLUMN_NAMES = ('Time', 'Detector Score', 'Classification')
 
 
@@ -284,6 +349,35 @@ DETECTION_FILE_FORMATS = {
             'BirdVoxClassify Species Confidence'),
         
         get_detection_file_row_8
+        
+    ),
+    
+    # ten-column checklist of BirdVoxDetect 0.6.0
+    (
+        'Time (hh:mm:ss)',             # 0
+        'Detection confidence (%)',    # 1
+        'Order',                       # 2
+        'Order confidence (%)',        # 3
+        'Family',                      # 4
+        'Family confidence (%)',       # 5
+        'Species (English name)',      # 6
+        'Species (scientific name)',   # 7
+        'Species (4-letter code)',     # 8
+        'Species confidence (%)'       # 9
+    ): (
+        
+        SHARED_COLUMN_NAMES + (
+            'Classification Score',
+            'BirdVoxClassify Order',
+            'BirdVoxClassify Order Confidence',
+            'BirdVoxClassify Family',
+            'BirdVoxClassify Family Confidence',
+            'BirdVoxClassify Species English Name',
+            'BirdVoxClassify Species Scientific Name',
+            'BirdVoxClassify Species Code',
+            'BirdVoxClassify Species Confidence'),
+        
+        get_detection_file_row_10
         
     ),
 
